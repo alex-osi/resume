@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font: 100%/1.5em Arial, Helvetica, sana-serif;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px; /*if use nav-bar*/
+}
+
+
+
+/*Flexible media*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+#resume {
+    color: #999;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 20px;
+}
+
+a {
+    color: #ff4d54;
+}
+
+/*.navbar-collapse .nav >li >a {*/
+    /*color: #ff4d54;*/
+    /*font-size: 20px;*/
+/*}*/
+
+/*.navbar-collapse .nav > li > a:hover {*/
+    /*color: #7b7b7b;*/
+    /*outline: 0;*/
+/*}*/
+
+/*.navbar-collapse .nav > li > a:focus {*/
+    /*color: #7b7b7b;*/
+    /*outline: 0;*/
+/*}*/
+
+.navbar {
+    font-weigft: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #ff7878;
+}
+
+    /*flexible background*/
+.fluid-bg {
+    /*max-width: 100%;*/
+    background: url(../img/mo.jpg) no-repeat top center;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: center center;
+    min-height: 500px;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container .cols {
+    float: left;
+    margin: 0 0 1em;
+    padding: 0 1em;
+    /*background: #fd4;*/
+    text-align: center;
+}
+
+
