@@ -74,13 +74,13 @@ a {
 #headerwrap {
     /*max-width: 100%;*/
     background: url(../img/shut.jpg) no-repeat top center;
-    margin-top: -10px;
+    margin-top: -60px;
     padding-top: 20px;
     /*text-align: center;*/
     background-attachment: scroll;
     background-position: center center;
     min-height: 320px;
-    background-size: 100%;
+    /*background-size: 100%;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,7 +94,7 @@ a {
     float: left;
     overflow: hidden;
     border: 2px solid #cccccc;
-    margin-top: 15px;
+    margin-top: 45px;
     margin-right: 30px;
 }
 
@@ -135,6 +135,10 @@ figure embed {
     max-width: 100%;
 }
 
+#work {
+    margin-top: 50px;
+}
+
 #work .col-lg-8 h4 {
     font-weight:bold;
 }
@@ -146,6 +150,10 @@ figure embed {
  p {
     font-size: 16px;
 }
+
+ #education {
+     margin-top: 50px;
+ }
 
 #education ul {
     font-size: 16px;
@@ -160,6 +168,10 @@ figure embed {
     border: 2px solid #cccccc;
     margin-top: 15px;
     margin-right: 30px;
+}
+
+#about_me {
+    margin-top: 50px;
 }
 
 #footer{
