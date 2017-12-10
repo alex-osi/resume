@@ -9,4 +9,4 @@ $text = trim($_POST["text"]);
 $message = "???: $name \n??????????? ?????: $mail \n?????: $text";
 
 $pagetitle = "?????? ? ?????\"$sitename"";
-mail($recepient, $pagetitle, $message, "Content-Type: text/html; charset=\"utf-8\"\n From: $recepient)
+mail($recepient, $pagetitle, $message, "Content-Type: text/plain; charset=\"utf-8\"\n From: $recepient);
