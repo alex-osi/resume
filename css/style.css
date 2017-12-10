@@ -99,7 +99,7 @@ a {
 }
 
 
-#headerwrap h1 {
+ h1 {
     margin-top: 40px;
     color: black;
     font-size: 40px;
@@ -188,6 +188,13 @@ figure embed {
 
 #footer i:hover {
     color: #ff7878;
+}
+
+
+@media screen and (max-width: 767px) {
+     h1{
+        font-size: 34px;
+    }
 }
 /*.container {*/
     /*width: 90%;*/
