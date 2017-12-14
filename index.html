@@ -61,12 +61,12 @@
     <div id="headerwrap">
         <div class="container">
 
-            <div class="button-mail">
-                <a href="#form" class="but_ml">Хотите связаться со мной?</a>
-            </div>
+            <!--<div class="button-mail">-->
+                <!--<a href="#form" class="but_ml">Хотите связаться со мной?</a>-->
+            <!--</div>-->
 
             <div class="row">
-                
+
                 <figure class="avatar">
                     <img src="img/foto1.jpg" alt="">
                 </figure>
@@ -83,6 +83,10 @@
                         <li><i class="fa fa-telegram" aria-hidden="true"></i><a id="telegram"
                         href="http://t.me/OsipchukAlex" target="_blank">Telegram: OsipchukAlex</a></li>
                     </ul>
+
+                    <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Хотите связаться со мной?</button>-->
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Хотите связаться со мной?</button>
                 </div>
                 <span id="my_work"></span>
             </div>
@@ -262,19 +266,79 @@
         </div>
     </div>
 
-    <div class="hidden">
-        <form id="form">
-            <!-- Hidden Required Fields -->
-            <input type="hidden" name="project_name" value="Осипчук Алексей Александрович">
-            <input type="hidden" name="admin_email" value="osipchuk_alex@mail.ru">
-            <input type="hidden" name="form_subject" value="Обратная связь">
-            <!-- END Hidden Required Fields -->
+    <!--<div class="hidden">-->
+        <!--<form id="form">-->
+            <!--&lt;!&ndash; Hidden Required Fields &ndash;&gt;-->
+            <!--<input type="hidden" name="project_name" value="Осипчук Алексей Александрович">-->
+            <!--<input type="hidden" name="admin_email" value="osipchuk_alex@mail.ru">-->
+            <!--<input type="hidden" name="form_subject" value="Обратная связь">-->
+            <!--&lt;!&ndash; END Hidden Required Fields &ndash;&gt;-->
 
-            <input type="text" name="Name" placeholder="Ваше имя..." required><br>
-            <input type="text" name="E-mail" placeholder="Ваш E-mail..." required><br>
-            <textarea name="text" id="textarea" cols="30" rows="3" placeholder="Ваше сообщение..."></textarea><br>
-            <button>Отправить</button>
-        </form>
+            <!--<input type="text" name="Name" placeholder="Ваше имя..." required><br>-->
+            <!--<input type="text" name="E-mail" placeholder="Ваш E-mail..." required><br>-->
+            <!--<textarea name="text" id="textarea" cols="30" rows="3" placeholder="Ваше сообщение..."></textarea><br>-->
+            <!--<button>Отправить</button>-->
+        <!--</form>-->
+    <!--</div>-->
+
+
+    <!--<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">-->
+        <!--<div class="modal-dialog" role="document">-->
+            <!--<div class="modal-content">-->
+                <!--<div class="modal-header">-->
+                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+                    <!--<h4 class="modal-title" id="exampleModalLabel">New message</h4>-->
+                <!--</div>-->
+                <!--<div class="modal-body">-->
+                    <!--<form  id="form">-->
+                        <!--<input type="hidden" name="project_name" value="Осипчук Алексей Александрович">-->
+                        <!--<input type="hidden" name="admin_email" value="osipchuk_alex@mail.ru">-->
+                        <!--<input type="hidden" name="form_subject" value="Обратная связь">-->
+                        <!--<div class="form-group">-->
+                            <!--<label for="recipient-name" class="control-label">Ваще имя</label>-->
+                            <!--<input type="text" class="form-control" id="recipient-name">-->
+                        <!--</div>-->
+                        <!--<div class="form-group">-->
+                            <!--<label for="recipient-name" class="control-label">Ваш E-mail</label>-->
+                            <!--<input type="text" class="form-control" id="recipient-mail">-->
+                        <!--</div>-->
+                        <!--<div class="form-group">-->
+                            <!--<label for="message-text" class="control-label">Message:</label>-->
+                            <!--<textarea class="form-control" id="message-text"></textarea>-->
+                        <!--</div>-->
+                    <!--</form>-->
+                <!--</div>-->
+                <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    <!--<button type="button" class="btn btn-primary">Send message</button>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <form  id="form">
+                    <div class="form-group">
+                    <label for="recipient-name" class="control-label">Ваще имя</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                    <label for="recipient-name" class="control-label">Ваш E-mail</label>
+                    <input type="text" class="form-control" id="recipient-mail">
+                </div>
+                <div class="form-group">
+                    <label for="message-text" class="control-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                </div>
+                    <button class="btn btn-primary">Send message</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

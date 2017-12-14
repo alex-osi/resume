@@ -226,19 +226,19 @@ figure embed {
     display: none;
 }
 
-#form{
-    padding: 50px 20px;
-    max-width: 320px;
-    margin: auto;
-    position: relative;
-    background: url("../img/later.JPG") no-repeat top center;
-    background-position: center;
-}
+/*#form{*/
+    /*padding: 50px 20px;*/
+    /*max-width: 500px;*/
+    /*margin: auto;*/
+    /*position: relative;*/
+    /*background: url("../img/later.JPG") no-repeat top center;*/
+    /*background-position: center;*/
+/*}*/
 
-#textarea {
+#message-text {
     max-height: 80px;
     max-width: 200px;
 }
-.mfp-content .mfp-close {
-    color: #cccccc;
-}
+/*.mfp-content .mfp-close {*/
+    /*color: #cccccc;*/
+/*}*/
