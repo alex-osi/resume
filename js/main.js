@@ -88,8 +88,8 @@ $('.f-all').click(function(){
 
 //кнопка Вверх
 $(window).scroll(function() {
-    console.log($(this).scrollTop());
-    if ($(this).scrollTop() > 100){
+    // console.log($(this).scrollTop());
+    if ($(this).scrollTop() > $(this).height()){
         $('.top').addClass('active');
         // alert(console.log(111))
     } else {
